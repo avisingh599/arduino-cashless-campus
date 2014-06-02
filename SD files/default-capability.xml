@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<devices>
+  <version>PC8</version>
+  <Revision-version>4.0.1</Revision-version>
+  <device>
+  <identification>
+    <model>ST15i</model>
+    <marketingname>Xperia&#8482; mini (ST15)</marketingname>
+    <vendor>Sony Ericsson</vendor>
+    <brand>Xperia</brand>
+	<typeID>AAD-3880107-BV</typeID>
+  </identification>
+  <storage>
+    <type>CARD</type>
+    <max-full>90</max-full>
+  </storage>
+  <display index="0">
+    <height unit="pixels">480</height>
+    <width unit="pixels">320</width>
+    <colors>16777216</colors>
+  </display>
+  <image>
+    <format id="JPEG" preferred="true">
+      <maxheight>1080</maxheight>
+      <maxwidth>1920</maxwidth>
+      <extension>jpg</extension>
+      <extension>jpeg</extension>
+      <mime-type>image/jpeg</mime-type>
+    </format>
+    <format id="BMP" preferred="false">
+      <extension>bmp</extension>
+      <mime-type>image/bmp</mime-type>
+    </format>
+    <format id="GIF" preferred="false">
+      <extension>gif</extension>
+      <mime-type>image/gif</mime-type>
+    </format>
+    <format id="PNG" preferred="false">
+      <extension>png</extension>
+      <mime-type>image/png</mime-type>
+    </format>
+  </image>
+  <audio>
+    <format id="AMR" preferred="false">
+      <extension>3gp</extension>
+      <mime-type>audio/amr</mime-type>
+    </format>
+    <format id="AMR-WB" preferred="false">
+      <extension>3gp</extension>
+      <mime-type>audio/amr-wb</mime-type>
+    </format>
+    <format id="WAV" preferred="false">
+      <extension>wav</extension>
+      <mime-type>audio/x-wav</mime-type>
+    </format>
+    <format id="MP3" preferred="false">
+      <extension>mp3</extension>
+      <mime-type>audio/mpeg</mime-type>
+    </format>
+    <format id="MP4" preferred="true">
+      <extension>mp4</extension>
+      <mime-type>audio/mp4</mime-type>
+    </format>
+    <format id="MIDI" preferred="false">
+      <extension>mid</extension>
+      <extension>midi</extension>
+      <mime-type>audio/midi</mime-type>
+    </format>
+    <format id="iMelody" preferred="false">
+      <extension>imy</extension>
+      <mime-type>audio/imelody</mime-type>
+    </format>
+    <format id="3GPP" preferred="false">
+      <extension>3gp</extension>
+      <mime-type>audio/3gpp</mime-type>
+    </format>
+    <format id="m4a" preferred="false">
+      <extension>m4a</extension>
+      <mime-type>audio/mp4</mime-type>
+    </format>
+    <format id="OGG" preferred="false">
+      <extension>ogg</extension>
+      <extension>oga</extension>
+      <mime-type>application/ogg</mime-type>
+    </format>
+  </audio>
+  <audio-playlist>
+    <format id="m3u8" preferred="true">
+      <extension>m3u</extension>
+    </format>
+  </audio-playlist>
+  <video>
+    <format preferred="true">
+      <extension>mp4</extension>
+      <extension>3gp</extension>
+      <mime-type>video/mp4</mime-type>
+      <mime-type>video/3gp</mime-type>
+      <encoding>mpeg-4</encoding>
+      <video>H264 Baseline</video>
+      <part>10</part>
+      <profile>0</profile>
+      <framesize id="720P">
+        <width>1280</width>
+        <height>720</height>
+      </framesize>
+      <framerate>30</framerate>
+      <avgvideobitrate>6000</avgvideobitrate>
+      <peakvideobitrate>17408</peakvideobitrate>
+      <subtitles></subtitles>
+      <chapters></chapters>
+      <sound>AAC</sound>
+      <kbits>384</kbits>
+    </format>
+    <format preferred="false">
+      <extension>mp4</extension>
+      <extension>3gp</extension>
+      <mime-type>video/mp4</mime-type>
+      <mime-type>video/3gp</mime-type>
+      <encoding>mpeg-4</encoding>
+      <video>H264 Main</video>
+      <part>10</part>
+      <profile>77</profile>
+      <framesize id="HD 720p">
+        <width>1280</width>
+        <height>720</height>
+      </framesize>
+      <framerate>30</framerate>
+      <avgvideobitrate>6000</avgvideobitrate>
+      <peakvideobitrate>17408</peakvideobitrate>
+      <subtitles></subtitles>
+      <chapters></chapters>
+      <sound>AAC</sound>
+      <kbits>384</kbits>
+    </format>
+    <format preferred="false">
+      <extension>mp4</extension>
+      <extension>3gp</extension>
+      <mime-type>video/mp4</mime-type>
+      <mime-type>video/3gp</mime-type>
+      <encoding>mpeg-4</encoding>
+      <video>H264 High</video>
+      <part>10</part>
+      <profile>100</profile>
+      <framesize id="HD 720p">
+        <width>1280</width>
+        <height>720</height>
+      </framesize>
+      <framerate>30</framerate>
+      <avgvideobitrate>6000</avgvideobitrate>
+      <peakvideobitrate>17408</peakvideobitrate>
+      <subtitles></subtitles>
+      <chapters></chapters>
+      <sound>AAC</sound>
+      <kbits>384</kbits>
+    </format>
+    <format preferred="false">
+      <extension>3gp</extension>
+      <mime-type>video/3gp</mime-type>
+      <encoding>mpeg-4</encoding>
+      <video>MPEG-4 Visual</video>
+      <part>2</part>
+      <profile>SP</profile>
+      <framesize id="720P">
+        <width>1280</width>
+        <height>720</height>
+      </framesize>
+      <framerate>30</framerate>
+      <avgvideobitrate>6000</avgvideobitrate>
+      <peakvideobitrate>20480</peakvideobitrate>
+      <sound>AAC</sound>
+      <kbits>384</kbits>
+    </format>
+    <format preferred="false">
+      <extension>3gp</extension>
+      <mime-type>video/3gp</mime-type>
+      <encoding>H.263</encoding>
+      <framesize id="720P">
+        <width>1280</width>
+        <height>720</height>
+      </framesize>
+      <framerate>30</framerate>
+      <avgvideobitrate>6000</avgvideobitrate>
+      <peakvideobitrate>20480</peakvideobitrate>
+    </format>
+  </video>
+  <filesystem>
+    <filename maxlength="255"/>
+    <folder maxlength="1023"/>
+    <path>
+      <camera>\DCIM\</camera>
+      <image>\picture\</image>
+      <video>\video\</video>
+	<marlin-license-store>\MLN_ROOT\LICENSE</marlin-license-store>
+        <videosources>
+        </videosources>
+      <sound>\music\</sound>
+        <soundsources>
+        </soundsources>
+      <feedsound>\music\podcast\</feedsound>
+      <feedvideo>\video\podcast\</feedvideo>
+      <feedimage>\picture\podcast\</feedimage>
+      <feeds>\other\</feeds>
+    </path>
+  </filesystem>
+  <drm> 
+    <oma-v1>true</oma-v1>
+    <oma-v2>false</oma-v2>
+    <wmdrm>false</wmdrm>
+    <marlin msc-only="true">true</marlin>
+  </drm>
+  <sensme>
+    <available>false</available>
+  </sensme>
+  <albumart>
+    <displaysize unit="pixels">
+      <width>400</width>
+      <height>400</height>
+    </displaysize>
+    <filesize unit="bytes">1048576</filesize>
+  </albumart>
+  <wifi available="true"/>
+  <DLNA available="false"/>
+  <MTP available="true" version="1.0"/>
+  <associated-stores>
+    <psn>true</psn>
+  </associated-stores>
+  <software>
+    <semcboot>
+      <productnumber>1241-3656</productnumber>
+  	  <productrevision>R9A029</productrevision>
+    </semcboot>
+    <app>
+      <productnumber>1244-2098</productnumber>
+  	  <productrevision>4.1.B.0.587</productrevision>
+    </app>
+    <filesystem>
+             <productnumber>WORLD-i</productnumber>
+  	   <productrevision>4.1.B.0.587</productrevision>
+    </filesystem>
+    <cdf>
+      <productnumber>1249-7721</productnumber>
+  	  <productrevision>R2I</productrevision>
+    </cdf>
+   </software>
+  <systemserialnumbers>
+     <IMEI>358217047815244</IMEI>
+  </systemserialnumbers>
+ </device>
+</devices>
