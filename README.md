@@ -6,3 +6,5 @@ For detailed information on this project, check out the pdf documentation attach
 final_2_7_3: Code for the offline version of the program ( no ethenret shield required)
 
 final_2_8_ethernet: As the name suggests, this is the online version of the program ( and captures the essence of the project).
+
+SD files: contains the files that reside on the SD card in the TFT screen 
